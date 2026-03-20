@@ -1,0 +1,270 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" font-family="'Segoe UI', Arial, sans-serif">
+  <defs>
+    <linearGradient id="patriGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a0522d" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#a0522d" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="buroGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d6a4f" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#2d6a4f" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="gerGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a4480" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1a4480" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="posGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d7377" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0d7377" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="750" fill="#faf8f0" rx="8"/>
+
+  <!-- Title -->
+  <text x="600" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#2d4a3e" font-family="Georgia, serif" letter-spacing="1.5">
+    MODELOS DE ADMINISTRAÇÃO PÚBLICA NO BRASIL
+  </text>
+  <text x="600" y="58" text-anchor="middle" font-size="13" fill="#5a7a6e">
+    Curvas de predominância — início / implantação e auge de cada modelo
+  </text>
+
+  <!-- Y axis label -->
+  <text x="25" y="360" text-anchor="middle" font-size="11" fill="#5a7a6e" transform="rotate(-90 25 360)">
+    Predominância / Influência
+  </text>
+
+  <!-- Y axis ticks -->
+  <text x="70" y="604" text-anchor="end" font-size="9" fill="#999">0%</text>
+  <text x="70" y="484" text-anchor="end" font-size="9" fill="#999">25%</text>
+  <text x="70" y="364" text-anchor="end" font-size="9" fill="#999">50%</text>
+  <text x="70" y="244" text-anchor="end" font-size="9" fill="#999">75%</text>
+  <text x="70" y="124" text-anchor="end" font-size="9" fill="#999">100%</text>
+
+  <!-- Horizontal grid -->
+  <line x1="80" y1="480" x2="1160" y2="480" stroke="#e0ddd5" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="80" y1="360" x2="1160" y2="360" stroke="#e0ddd5" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="80" y1="240" x2="1160" y2="240" stroke="#e0ddd5" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="80" y1="120" x2="1160" y2="120" stroke="#e0ddd5" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <!-- Vertical grid lines at decades -->
+  <!-- yearToX(y) = 80 + (y-1880)*7.2 -->
+  <!-- 1880:80  1890:152  1900:224  1910:296  1920:368  1930:440  1940:512  1950:584  1960:656  1967:706  1970:728  1980:800  1988:858  1990:872  1995:908  2000:944  2010:1016  2020:1088  2030:1160 -->
+  <line x1="224" y1="100" x2="224" y2="600" stroke="#e0ddd5" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="368" y1="100" x2="368" y2="600" stroke="#e0ddd5" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="440" y1="100" x2="440" y2="600" stroke="#c8c4b8" stroke-width="0.8"/>
+  <line x1="512" y1="100" x2="512" y2="600" stroke="#e0ddd5" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="584" y1="100" x2="584" y2="600" stroke="#e0ddd5" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="656" y1="100" x2="656" y2="600" stroke="#e0ddd5" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="728" y1="100" x2="728" y2="600" stroke="#e0ddd5" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="800" y1="100" x2="800" y2="600" stroke="#e0ddd5" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="858" y1="100" x2="858" y2="600" stroke="#c8c4b8" stroke-width="0.8"/>
+  <line x1="872" y1="100" x2="872" y2="600" stroke="#e0ddd5" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="944" y1="100" x2="944" y2="600" stroke="#e0ddd5" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="1016" y1="100" x2="1016" y2="600" stroke="#e0ddd5" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="1088" y1="100" x2="1088" y2="600" stroke="#e0ddd5" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <!-- Axes -->
+  <line x1="80" y1="600" x2="1160" y2="600" stroke="#2d4a3e" stroke-width="2"/>
+  <line x1="80" y1="600" x2="80" y2="100" stroke="#2d4a3e" stroke-width="1.5"/>
+
+  <!-- X axis labels -->
+  <text x="80" y="622" text-anchor="middle" font-size="10" fill="#999">1880</text>
+  <text x="224" y="622" text-anchor="middle" font-size="10" fill="#999">1900</text>
+  <text x="368" y="622" text-anchor="middle" font-size="10" fill="#999">1920</text>
+  <text x="440" y="622" text-anchor="middle" font-size="11" fill="#2d4a3e" font-weight="bold">1930</text>
+  <text x="512" y="622" text-anchor="middle" font-size="10" fill="#999">1940</text>
+  <text x="584" y="622" text-anchor="middle" font-size="10" fill="#999">1950</text>
+  <text x="656" y="622" text-anchor="middle" font-size="10" fill="#999">1960</text>
+  <text x="728" y="622" text-anchor="middle" font-size="10" fill="#999">1970</text>
+  <text x="800" y="622" text-anchor="middle" font-size="10" fill="#999">1980</text>
+  <text x="858" y="622" text-anchor="middle" font-size="11" fill="#2d4a3e" font-weight="bold">1988</text>
+  <text x="944" y="622" text-anchor="middle" font-size="10" fill="#999">2000</text>
+  <text x="1016" y="622" text-anchor="middle" font-size="10" fill="#999">2010</text>
+  <text x="1088" y="622" text-anchor="middle" font-size="10" fill="#999">2020</text>
+
+  <!-- ===================== CURVA 1: PATRIMONIALISMO ===================== -->
+  <!-- Cor: sienna #a0522d -->
+  <!-- Predominante antes de 1930. Auge ~1900-1910. Declínio após 1930. Resíduo até ~1960 -->
+  <path d="M 80,600 L 80,210
+           C 120,185 200,140 280,125
+           C 320,118 340,125 370,150
+           C 420,220 460,380 500,480
+           C 540,545 600,585 656,598 L 656,600 Z"
+        fill="url(#patriGrad)" stroke="none"/>
+  <path d="M 80,210
+           C 120,185 200,140 280,125
+           C 320,118 340,125 370,150
+           C 420,220 460,380 500,480
+           C 540,545 600,585 656,598"
+        fill="none" stroke="#a0522d" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Ponto de AUGE Patrimonialismo -->
+  <circle cx="280" cy="125" r="6" fill="#a0522d" stroke="#fff" stroke-width="2"/>
+  <rect x="240" y="88" width="80" height="28" rx="4" fill="#a0522d" fill-opacity="0.12"/>
+  <text x="280" y="100" text-anchor="middle" font-size="9" fill="#a0522d" font-weight="bold">AUGE</text>
+  <text x="280" y="112" text-anchor="middle" font-size="10" fill="#a0522d" font-weight="bold">~1908</text>
+
+  <!-- Ponto de INÍCIO visível Patrimonialismo -->
+  <circle cx="80" cy="210" r="4" fill="#a0522d" stroke="#fff" stroke-width="1.5"/>
+
+  <!-- ===================== CURVA 2: BUROCRÁTICO ===================== -->
+  <!-- Cor: verde escuro #2d6a4f -->
+  <!-- Implantação 1930 (DASP 1938). Auge ~1955-1960. Declínio pós-1967. Bump CF/1988. -->
+  <path d="M 380,600
+           C 400,585 425,490 465,380
+           C 500,290 555,185 615,140
+           C 640,125 658,120 675,125
+           C 710,145 740,230 770,310
+           C 790,365 812,382 832,372
+           C 848,362 856,342 862,332
+           C 870,342 882,375 898,425
+           C 932,515 972,575 1040,596
+           L 1060,600 Z"
+        fill="url(#buroGrad)" stroke="none"/>
+  <path d="M 380,600
+           C 400,585 425,490 465,380
+           C 500,290 555,185 615,140
+           C 640,125 658,120 675,125
+           C 710,145 740,230 770,310
+           C 790,365 812,382 832,372
+           C 848,362 856,342 862,332
+           C 870,342 882,375 898,425
+           C 932,515 972,575 1040,596"
+        fill="none" stroke="#2d6a4f" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Ponto de AUGE Burocrático -->
+  <circle cx="660" cy="120" r="6" fill="#2d6a4f" stroke="#fff" stroke-width="2"/>
+  <rect x="618" y="82" width="84" height="28" rx="4" fill="#2d6a4f" fill-opacity="0.12"/>
+  <text x="660" y="94" text-anchor="middle" font-size="9" fill="#2d6a4f" font-weight="bold">AUGE</text>
+  <text x="660" y="106" text-anchor="middle" font-size="10" fill="#2d6a4f" font-weight="bold">~1958</text>
+
+  <!-- Ponto de INÍCIO Burocrático -->
+  <circle cx="440" cy="440" r="4" fill="#2d6a4f" stroke="#fff" stroke-width="1.5"/>
+  <text x="440" y="458" text-anchor="middle" font-size="9" fill="#2d6a4f">DASP 1938</text>
+
+  <!-- Bump CF/1988 -->
+  <circle cx="862" cy="332" r="5" fill="#2d6a4f" stroke="#fff" stroke-width="1.5"/>
+  <text x="862" y="318" text-anchor="middle" font-size="9" fill="#2d6a4f" font-style="italic">Retrocesso</text>
+  <text x="862" y="306" text-anchor="middle" font-size="9" fill="#2d6a4f" font-weight="bold">CF/1988</text>
+
+  <!-- ===================== CURVA 3: GERENCIAL ===================== -->
+  <!-- Cor: azul marinho #1a4480 -->
+  <!-- 1a tentativa 1967 (DL 200). Desburocratização 1979-85. PDRAE 1995. Auge ~2000-2005. Declínio. -->
+  <path d="M 660,600
+           C 678,582 696,528 712,475
+           C 728,430 742,412 752,418
+           C 768,428 784,462 800,492
+           C 818,525 838,538 858,518
+           C 878,492 898,395 918,298
+           C 938,210 958,150 978,130
+           C 993,118 1008,118 1023,130
+           C 1043,155 1063,225 1083,305
+           C 1098,365 1118,445 1138,505
+           C 1148,535 1156,570 1160,590
+           L 1160,600 Z"
+        fill="url(#gerGrad)" stroke="none"/>
+  <path d="M 660,600
+           C 678,582 696,528 712,475
+           C 728,430 742,412 752,418
+           C 768,428 784,462 800,492
+           C 818,525 838,538 858,518
+           C 878,492 898,395 918,298
+           C 938,210 958,150 978,130
+           C 993,118 1008,118 1023,130
+           C 1043,155 1063,225 1083,305
+           C 1098,365 1118,445 1138,505"
+        fill="none" stroke="#1a4480" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Ponto de AUGE Gerencial -->
+  <circle cx="1000" cy="118" r="6" fill="#1a4480" stroke="#fff" stroke-width="2"/>
+  <rect x="958" y="80" width="84" height="28" rx="4" fill="#1a4480" fill-opacity="0.12"/>
+  <text x="1000" y="92" text-anchor="middle" font-size="9" fill="#1a4480" font-weight="bold">AUGE</text>
+  <text x="1000" y="104" text-anchor="middle" font-size="10" fill="#1a4480" font-weight="bold">~2002</text>
+
+  <!-- 1a tentativa gerencial DL 200/1967 -->
+  <circle cx="752" cy="418" r="4" fill="#1a4480" stroke="#fff" stroke-width="1.5"/>
+  <text x="752" y="406" text-anchor="middle" font-size="9" fill="#1a4480">DL 200/1967</text>
+
+  <!-- PDRAE 1995 -->
+  <circle cx="908" cy="330" r="4" fill="#1a4480" stroke="#fff" stroke-width="1.5"/>
+  <text x="908" y="352" text-anchor="middle" font-size="9" fill="#1a4480">PDRAE 1995</text>
+
+  <!-- ===================== CURVA 4: PÓS-GERENCIAL / GOVERNANÇA ===================== -->
+  <!-- Cor: teal #0d7377 -->
+  <!-- Início ~1998. Em ascensão contínua. Sem pico definido (modelo atual). -->
+  <path d="M 920,600
+           C 938,588 958,545 978,488
+           C 998,428 1018,362 1038,300
+           C 1058,242 1078,192 1098,158
+           C 1118,132 1138,120 1160,112
+           L 1160,600 Z"
+        fill="url(#posGrad)" stroke="none"/>
+  <path d="M 920,600
+           C 938,588 958,545 978,488
+           C 998,428 1018,362 1038,300
+           C 1058,242 1078,192 1098,158
+           C 1118,132 1138,120 1160,112"
+        fill="none" stroke="#0d7377" stroke-width="3" stroke-linecap="round" stroke-dasharray="10,5"/>
+
+  <!-- Seta indicando ascensão -->
+  <polygon points="1158,108 1164,122 1152,122" fill="#0d7377"/>
+  <text x="1142" y="102" text-anchor="end" font-size="9" fill="#0d7377" font-style="italic">em ascensão</text>
+
+  <!-- Ponto de INÍCIO Pós-gerencial -->
+  <circle cx="940" cy="585" r="4" fill="#0d7377" stroke="#fff" stroke-width="1.5"/>
+  <text x="952" y="578" text-anchor="start" font-size="9" fill="#0d7377">Gov. Eletrônico</text>
+
+  <!-- ===================== MARCOS NA LINHA DO TEMPO ===================== -->
+  <!-- Marcadores abaixo do eixo X -->
+  <line x1="440" y1="600" x2="440" y2="643" stroke="#2d4a3e" stroke-width="1.2"/>
+  <text x="440" y="656" text-anchor="middle" font-size="9" fill="#2d4a3e" font-weight="bold">Era Vargas</text>
+  <text x="440" y="668" text-anchor="middle" font-size="8" fill="#666">Implantação burocrática</text>
+
+  <line x1="685" y1="600" x2="685" y2="643" stroke="#2d4a3e" stroke-width="1.2"/>
+  <text x="685" y="656" text-anchor="middle" font-size="9" fill="#2d4a3e" font-weight="bold">Golpe 1964</text>
+  <text x="685" y="668" text-anchor="middle" font-size="8" fill="#666">COMESTRA</text>
+
+  <line x1="706" y1="600" x2="706" y2="636" stroke="#2d4a3e" stroke-width="1"/>
+
+  <line x1="908" y1="600" x2="908" y2="643" stroke="#2d4a3e" stroke-width="1.2"/>
+  <text x="908" y="656" text-anchor="middle" font-size="9" fill="#2d4a3e" font-weight="bold">PDRAE</text>
+  <text x="908" y="668" text-anchor="middle" font-size="8" fill="#666">Bresser-Pereira/FHC</text>
+
+  <line x1="930" y1="600" x2="930" y2="636" stroke="#2d4a3e" stroke-width="1"/>
+  <text x="930" y="648" text-anchor="middle" font-size="8" fill="#666">EC 19/98</text>
+
+  <!-- ===================== LEGENDA ===================== -->
+  <rect x="84" y="78" width="280" height="114" rx="6" fill="#faf8f0" fill-opacity="0.92" stroke="#c8c4b8" stroke-width="0.8"/>
+  <text x="94" y="95" font-size="10" fill="#2d4a3e" font-weight="bold" letter-spacing="0.5">LEGENDA</text>
+
+  <line x1="94" y1="112" x2="128" y2="112" stroke="#a0522d" stroke-width="3"/>
+  <circle cx="111" cy="112" r="3.5" fill="#a0522d"/>
+  <text x="136" y="116" font-size="11" fill="#a0522d" font-weight="bold">Patrimonialismo</text>
+  <text x="265" y="116" font-size="9" fill="#a0522d">(até ~1930)</text>
+
+  <line x1="94" y1="134" x2="128" y2="134" stroke="#2d6a4f" stroke-width="3"/>
+  <circle cx="111" cy="134" r="3.5" fill="#2d6a4f"/>
+  <text x="136" y="138" font-size="11" fill="#2d6a4f" font-weight="bold">Burocrático</text>
+  <text x="218" y="138" font-size="9" fill="#2d6a4f">(1930–1990s)</text>
+
+  <line x1="94" y1="156" x2="128" y2="156" stroke="#1a4480" stroke-width="3"/>
+  <circle cx="111" cy="156" r="3.5" fill="#1a4480"/>
+  <text x="136" y="160" font-size="11" fill="#1a4480" font-weight="bold">Gerencial</text>
+  <text x="206" y="160" font-size="9" fill="#1a4480">(1967–atual)</text>
+
+  <line x1="94" y1="178" x2="128" y2="178" stroke="#0d7377" stroke-width="3" stroke-dasharray="8,4"/>
+  <text x="136" y="182" font-size="11" fill="#0d7377" font-weight="bold">Pós-gerencial</text>
+  <text x="242" y="182" font-size="9" fill="#0d7377">(1998–atual)</text>
+
+  <!-- ===================== NOTAS DE RODAPÉ ===================== -->
+  <text x="600" y="700" text-anchor="middle" font-size="10" fill="#999" font-style="italic">
+    As curvas representam a predominância relativa de cada modelo. Sobreposições indicam coexistência de modelos.
+  </text>
+  <text x="600" y="716" text-anchor="middle" font-size="10" fill="#999" font-style="italic">
+    A linha tracejada do modelo Pós-gerencial indica tendência em ascensão (sem auge definido).
+  </text>
+  <text x="600" y="738" text-anchor="middle" font-size="9" fill="#bbb">
+    Baseado em: Bresser-Pereira (1998), PDRAE, Constituição Federal 1988, Decreto-Lei 200/1967
+  </text>
+</svg>
